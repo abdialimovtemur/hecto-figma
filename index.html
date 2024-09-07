@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="bg-[#7E33E0] text-white flex justify-between container py-4">
+            <div class="flex gap-12">
+                <p><i class="fa-regular fa-envelope" style="color: #ffffff;"></i> mhhasanul@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume" style="color: #ffffff;"></i> (12345)67890</p>
+            </div>
+            <div class="flex gap-5">
+                <select name="English" class="bg-[#7E33E0]">
+                    <option>English</option>
+                    <option>Russian</option>
+                    <option>Uzbek</option>
+                </select>
+                <select name="USD" class="bg-[#7E33E0]">
+                    <option>USD</option>
+                    <option>RUBL</option>
+                    <option>SUM</option>
+                </select>
+                <a href="#">Login <i class="fa-regular fa-user" style="color: #ffffff;"></i></a>
+                <a href="#">Wishlist <i class="fa-regular fa-heart" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></a>
+            </div>
+        </nav>
+
+        <nav class="container py-6 flex justify-between items-center">
+            <div class="flex gap-8">
+                <div><img src="./img/logo.svg" alt=""></div>
+                <ul class="flex gap-6">
+                    <select name="Home">
+                        <option>Home</option>
+                    </select>
+
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#"></a>Products</li>
+                    <li><a href="#"></a>Blog </li>
+                    <li><a href="#"></a>Shop</li>
+                    <li><a href="#"></a>Contact</li>
+                </ul>
+            </div>
+
+            <div class="bg-[#FB2E86]"><input type="text" class="border-[#E7E6EF] border-2 h-9 w-72 px-5 outline-none"><i
+                    class="fa-solid fa-magnifying-glass px-3" style="color: #ffffff;"></i></div>
+        </nav>
+    </header>
+    <section>
+        <div class="hero flex container bg-[#F2F0FF]">
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="featured_product"></div>
+        <div class="leatest_product"></div>
+        <div class="shopex"></div>
+
+      <div class="flex">
+        <div class="flex flex-col text-center shadow-sm bg-slate-300">
+            <div class="flex">
+                <div class="bg-[#F6F7FB] p-4"><img src="./img/chair1.png" alt=""></div>
+            </div>
+            <div class="flex flex-col">
+                <p class="text-[20px] font-bold">${item.chair}</p>
+                <p>chair: "Cantilever chair",</p>
+                <p class="text-[#151875]">code: "Code - Y523201",</p>
+                <p class="text-[#151875]">price: "$42.00"</p>
+            </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>

@@ -9,6 +9,60 @@ export const data = [
     },
 ];
 
+export const leatest = [
+
+
+
+    {
+        title: "Featured Products",
+        img: "./img/chair1.png",
+        chair: "Cantilever chair",
+        code: "Code - Y523201",
+        price: "$42.00",
+    },
+
+    {
+        title: "Featured Products",
+        img: "./img/chair1.png",
+        chair: "Cantilever chair",
+        code: "Code - Y523201",
+        price: "$42.00",
+    },
+
+    {
+        title: "Featured Products",
+        img: "./img/chair1.png",
+        chair: "Cantilever chair",
+        code: "Code - Y523201",
+        price: "$42.00",
+    },
+
+    {
+        title: "Featured Products",
+        img: "./img/chair1.png",
+        chair: "Cantilever chair",
+        code: "Code - Y523201",
+        price: "$42.00",
+    },
+
+    {
+        title: "Featured Products",
+        img: "./img/chair1.png",
+        chair: "Cantilever chair",
+        code: "Code - Y523201",
+        price: "$42.00",
+    },
+
+    {
+        title: "Featured Products",
+        img: "./img/chair1.png",
+        chair: "Cantilever chair",
+        code: "Code - Y523201",
+        price: "$42.00",
+    },
+
+]
+
 export const featured = [
     {
         title: "Featured Products",
@@ -16,5 +70,31 @@ export const featured = [
         chair: "Cantilever chair",
         code: "Code - Y523201",
         price: "$42.00"
-    }
+    },
+
+    {
+        title: "Featured Products",
+        img: "./img/chair1.png",
+        chair: "Cantilever chair",
+        code: "Code - Y523201",
+        price: "$42.00"
+    },
+
+    {
+        title: "Featured Products",
+        img: "./img/chair1.png",
+        chair: "Cantilever chair",
+        code: "Code - Y523201",
+        price: "$42.00"
+    },
+
+    {
+        title: "Featured Products",
+        img: "./img/chair1.png",
+        chair: "Cantilever chair",
+        code: "Code - Y523201",
+        price: "$42.00"
+    },
+
+
 ]

@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
 </head>
 
 <body>
@@ -15,6 +17,8 @@
                 <p><i class="fa-regular fa-envelope" style="color: #ffffff;"></i> mhhasanul@gmail.com</p>
                 <p><i class="fa-solid fa-phone-volume" style="color: #ffffff;"></i> (12345)67890</p>
             </div>
+            <button id="dark-mode-toggle" class="btn btn-outline-light">Dark Mode</button>
+
             <div class="flex gap-5">
                 <select name="English" class="bg-[#7E33E0]">
                     <option>English</option>
@@ -31,7 +35,7 @@
                 <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></a>
             </div>
         </nav>
-
+    
         <nav class="container py-6 flex justify-between items-center">
             <div class="flex gap-8">
                 <div><img src="./img/logo.svg" alt=""></div>
@@ -39,7 +43,7 @@
                     <select name="Home">
                         <option>Home</option>
                     </select>
-
+    
                     <li><a href="#">Pages</a></li>
                     <li><a href="#"></a>Products</li>
                     <li><a href="#"></a>Blog </li>
@@ -47,40 +51,66 @@
                     <li><a href="#"></a>Contact</li>
                 </ul>
             </div>
-
+    
             <div class="bg-[#FB2E86]"><input type="text" class="border-[#E7E6EF] border-2 h-9 w-72 px-5 outline-none"><i
                     class="fa-solid fa-magnifying-glass px-3" style="color: #ffffff;"></i></div>
         </nav>
     </header>
-    <section>
-        <div class="hero flex container bg-[#F2F0FF]">
+    
+
+    <div id="carouselExampleIndicators" class="carousel slide flex" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="hero flex container bg-[#F2F0FF]"></div>
         </div>
-    </section>
+        <div class="carousel-item">
+            <div class="hero flex container bg-[#F2F0FF]"></div>
+        </div>
+        <div class="carousel-item">
+            <div class="hero flex container bg-[#F2F0FF]"></div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+
 
     <section class="container">
-        <div class="featured_product"></div>
-        <div class="leatest_product"></div>
-        <div class="shopex"></div>
-
-      <div class="flex">
-        <div class="flex flex-col text-center shadow-sm bg-slate-300">
-            <div class="flex">
-                <div class="bg-[#F6F7FB] p-4"><img src="./img/chair1.png" alt=""></div>
-            </div>
-            <div class="flex flex-col">
-                <p class="text-[20px] font-bold">${item.chair}</p>
-                <p>chair: "Cantilever chair",</p>
-                <p class="text-[#151875]">code: "Code - Y523201",</p>
-                <p class="text-[#151875]">price: "$42.00"</p>
-            </div>
+        <div class="text-center text-3xl py-4">
+            Featured Products
         </div>
 
-      </div>
+        <div class="featured_product flex justify-between">
+        </div>
+
+        <div class="text-center text-3xl py-4">
+            Leatest Products
+        </div>
+        
+        </div>
+
+        <div class="leatest_product grid gap-4 grid-cols-3"></div>
+        <div class="shopex"></div>
+
     </section>
 
 
 
     <script type="module" src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
